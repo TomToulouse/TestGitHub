@@ -16,6 +16,6 @@ if annee % 400 == 0 or (annee % 4 == 0 and annee % 100 != 0):
     print("L'année saisie est bissextile.")
 else:
     print("L'année saisie n'est pas bissextile.")
-
+print("Le programme est terminé.")
 # On met le programme en pause pour éviter qu'il ne se referme (Windows)
 os.system("pause")
